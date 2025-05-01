@@ -13,13 +13,16 @@ const Navbar = () => {
         <div className="flex items-center space-x-6">
           <Link to="/" className="hover:text-musketeer-gold transition-colors">
             Главная
+
+            Главная
           </Link>
-          <Link to="/characters" className="hover:text-musketeer-gold transition-colors">
+          <Link to="/#characters" className="hover:text-musketeer-gold transition-colors">
             Персонажи
           </Link>
-          <Link to="/about" className="hover:text-musketeer-gold transition-colors">
+          <Link to="/#about" className="hover:text-musketeer-gold transition-colors">
             О романе
           </Link>
+
         </div>
       </div>
     </nav>

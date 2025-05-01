@@ -41,7 +41,10 @@ const Index = () => {
     <div className="min-h-screen bg-musketeer-cream">
       <Navbar />
       <HeroSection />
-      
+
+      <div className="container mx-auto px-4 py-12">
+        <h2 id="characters" className="font-playfair text-3xl font-bold text-center mb-2">Главные герои</h2>
+
       <div className="container mx-auto px-4 py-12">
         <h2 className="font-playfair text-3xl font-bold text-center mb-2">Главные герои</h2>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
