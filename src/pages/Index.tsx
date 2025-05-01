@@ -3,8 +3,8 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import MusketeerCard from "@/components/MusketeerCard";
 
+
 const Index = () => {
-  const musketeers = [
   const musketeers = [
     {
       name: "Д'Артаньян",
@@ -35,6 +35,7 @@ const Index = () => {
       color: "green" as const
     }
   ];
+
 
   return (
     <div className="min-h-screen bg-musketeer-cream">
