@@ -5,6 +5,7 @@ import MusketeerCard from "@/components/MusketeerCard";
 
 const Index = () => {
   const musketeers = [
+  const musketeers = [
     {
       name: "Д'Артаньян",
       image: "https://images.unsplash.com/photo-1589182337358-2cb63099261c?q=80&w=800&auto=format&fit=crop",
